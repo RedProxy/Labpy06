@@ -81,7 +81,9 @@ if a=="t" or a=="T":
     data[nim]=nama, tugas, uts, uas, akhir
 ```
 - Output Menambahkan Data
+
 ![gambar 5](image/tambah.jpeg)
+
 4. Menampilkan atau melihat data. Jika sebelumnya belum menginput data, maka tampilannya akan "Tidak ada data". Apabila sudah menginput data, maka data yang telah diinput tadi akan ditampilkan.
 ```bash
 elif a=="l" or a=="L":
@@ -106,7 +108,9 @@ elif a=="l" or a=="L":
         print()
 ```
 Output Menampilkan Data
+
 ![gambar 6](image/tampil.jpeg)
+
 5. Apabila ingin mengubah data, maka anda akan diminta untuk menginputkan nim terlebih dahulu. Setelah itu input data yang ingin diubah.
 ```bash
 elif a=="u" or a=="U":
@@ -121,7 +125,9 @@ elif a=="u" or a=="U":
         akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
 ```
 Output Mengubah Data
+
 ![gambar 7](image/ubah.jpeg)
+
 6. Jika ingin menghapus data, anda akan diminta untuk menginput nim. Lalu data yang telah diinput diawal tadi akan dihapus beserta valuesnya (nama, nilai tugas, nilai uts dan nilai uas).
 ```bash
 elif a=="h" or a=="H":
@@ -133,7 +139,9 @@ elif a=="h" or a=="H":
         del data[nim]
 ```
 Output Menghapus Data
+
 ![gambar 8](image/hapus.jpeg)
+
 7. Apabila ingin mencari data, anda akan diminta untuk menginput nim kemudian data yang anda cari akan muncul berdasarkan nim yang diinput tadi.
 ```bash
 elif a=="c" or a=="C":

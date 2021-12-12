@@ -80,7 +80,7 @@ if a=="t" or a=="T":
     akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
     data[nim]=nama, tugas, uts, uas, akhir
 ```
-- Output Menambahkan Data
+### Output Menambahkan Data
 
 ![gambar 5](image/tambah.jpeg)
 
@@ -107,7 +107,7 @@ elif a=="l" or a=="L":
         print(72*"=")
         print()
 ```
-Output Menampilkan Data
+### Output Menampilkan Data
 
 ![gambar 6](image/tampil.jpeg)
 
@@ -124,7 +124,7 @@ elif a=="u" or a=="U":
         uas=int(input("UAS\t: "))
         akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
 ```
-Output Mengubah Data
+### Output Mengubah Data
 
 ![gambar 7](image/ubah.jpeg)
 
@@ -138,7 +138,7 @@ elif a=="h" or a=="H":
     if data.keys():
         del data[nim]
 ```
-Output Menghapus Data
+### Output Menghapus Data
 
 ![gambar 8](image/hapus.jpeg)
 
